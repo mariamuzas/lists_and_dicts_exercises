@@ -2,42 +2,42 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 
 #1. Add "Edinburgh Waverley" to the end of the list
 
-# stops.append("Edinburgh Waverley")
+stops.append("Edinburgh Waverley")
 
-# #2. Add "Glasgow Queen St" to the start of the list
+#2. Add "Glasgow Queen St" to the start of the list
 
-# stops.insert(0, "Glasgow Queen St")
+stops.insert(0, "Glasgow Queen St")
 
-# #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
+#3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 
-# stops.insert(4, "Polmont")
+stops.insert(4, "Polmont")
 
-# #4. Print out the index position of "Linlithgow"
+#4. Print out the index position of "Linlithgow"
 
-# print(stops.index("Linlithgow"))    
+print(stops.index("Linlithgow"))    
 
-# #5. Remove "Livingston" from the list using its name
+#5. Remove "Livingston" from the list using its name
 
-# stops.remove("Livingston")
+stops.remove("Livingston")
 
-# #6. Delete "Cumbernauld" from the list by index
+#6. Delete "Cumbernauld" from the list by index
 
-# stops.pop(2)
-# print(stops)
+stops.pop(2)
+print(stops)
 
-# #7. Print the number of stops there are in the list
+#7. Print the number of stops there are in the list
 
-# print(len(stops))
+print(len(stops))
 
-# #8. Sort the list alphabetically
+#8. Sort the list alphabetically
 
-# print(sorted(stops))
+print(sorted(stops))
 
-# #9. Reverse the positions of the stops in the list
+#9. Reverse the positions of the stops in the list
 
-# # print(list(reversed(stops)))
+print(list(reversed(stops)))
 
-# #10 Print out all the stops using a for loop
+#10 Print out all the stops using a for loop
 
 for stop in stops:
     print(stop)
